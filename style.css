@@ -226,8 +226,6 @@ time {
   }
   .front .back {
     overflow: scroll;
-    height: 100%;
-    width: auto;
   }
   h2 {
     padding-top: 10px;
