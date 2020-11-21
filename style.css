@@ -223,7 +223,8 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent lightgray transparent transparent;
   }
-  .front .back {
+  .front,
+  .back {
     overflow: scroll;
     height: 100%;
     width: auto;
