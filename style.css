@@ -166,7 +166,7 @@ time {
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
-  overflow: scroll;
+  overflow: hidden;
   height: 100%;
 }
 
