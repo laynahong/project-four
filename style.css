@@ -44,6 +44,7 @@ h1 {
 p {
   font: large;
   color: white;
+  text-shadow: black;
 }
 
 .container div > p {
