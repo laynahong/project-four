@@ -171,11 +171,11 @@ time {
   transform: rotateY(180deg);
 }
 
-.back h2 {
+.back > h2 {
   color: black;
 }
 
-.back p {
+.back > p {
   color: black;
 }
 
