@@ -155,7 +155,6 @@ time {
   justify-content: center;
   align-items: center;
   backface-visibility: hidden;
-  border-radius: 4px;
   overflow: hidden;
   height: 100%;
 }
@@ -173,15 +172,20 @@ time {
 .back {
   border: none;
   transform: rotateY(180deg);
-  padding: 10px;
+  padding: 20px;
+  background: lightgray;
+  align-items: center;
 }
 
 .back > h2 {
   color: black;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 .back > p {
   color: black;
+  line-height: 25px;
 }
 
 .back:hover {
