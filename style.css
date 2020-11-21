@@ -138,6 +138,53 @@ time {
   opacity: 1;
 }
 
+/*Card Flip*/
+
+.card {
+  transition: transform 2s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.front,
+.back {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden;
+}
+
+.front {
+  border: none;
+}
+
+.front:hover {
+  bottom: 2px;
+  left: 2px;
+  box-shadow: 0px 0px 20px 1px #000;
+}
+
+.back {
+  border: none;
+  background: lightgray;
+  transform: rotateY(180deg);
+}
+
+.back h2 {
+  color: black;
+}
+
+.back p {
+  color: black;
+}
+
+.back:hover {
+  bottom: 2px;
+  right: 2px;
+  box-shadow: 0px 0px 20px 1px #000;
+}
+
 /* Mobile Styles */
 
 @media screen and (max-width: 900px) {
