@@ -16,7 +16,7 @@ body {
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 /* Header Styles */
 
@@ -44,6 +44,15 @@ h1 {
 p {
   font: large;
   color: white;
+}
+
+.container div > p {
+  width: 100%;
+  align-self: center;
+}
+
+.container div {
+  padding: 20px;
 }
 
 /* Timeline Styles */
