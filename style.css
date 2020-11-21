@@ -22,7 +22,7 @@ img {
 
 .intro {
   background: lightgray;
-  background-image: url(/images/header-background.jpg);
+  background-image: url(./images/header-background.jpg);
   padding: 100px 0;
 }
 
